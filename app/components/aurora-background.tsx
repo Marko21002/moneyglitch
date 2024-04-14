@@ -14,7 +14,7 @@ export const AuroraBackground = ({
   ...props
 }: AuroraBackgroundProps) => {
   return (
-    <main>
+    <main className="w-screen">
       <div
         className={cn(
           "relative flex flex-col   bg-zinc-50  text-slate-950 transition-bg",
