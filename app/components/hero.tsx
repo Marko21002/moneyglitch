@@ -51,7 +51,7 @@ export default function Hero() {
                         </div>
                         <div className="flex grow items-center justify-center">
                             <img
-                                src="/brain.png"
+                                src="/sphere.png"
                                 alt="Coins"
                                 className="ml-auto max-w-lg rotate-12 scale-125 pb-9"
                             />
