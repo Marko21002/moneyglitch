@@ -15,7 +15,7 @@ export default function Hero() {
                     ease: "easeInOut",
                 }}
                 className="">
-                <div className="h-screen">
+                <div className="h-auto lg:h-screen min-h-screen">
                     <header className="px-6 py-4 sm:px-20 md:px-36 lg:px-28">
                         <img src="/logo.svg" alt="logo" className="h-20 w-20" />
                     </header>
@@ -49,16 +49,16 @@ export default function Hero() {
                                 </div>
                             </form>
                         </div>
-                        <div className="flex grow items-center justify-center lg:w-1/2">
+                        <div className="flex grow items-center justify-center">
                             <img
                                 src="/brain.png"
                                 alt="Coins"
-                                className="ml-auto w-full max-w-lg rotate-12 scale-125 pb-9"
+                                className="ml-auto max-w-lg rotate-12 scale-125 pb-9"
                             />
                         </div>
                     </section>
                 </div>
             </motion.div>
         </AuroraBackground>
-    )
+    );
 }
