@@ -51,7 +51,7 @@ export default function Feature() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   We create the most user-friendly and monetizable platform for creators:
                 </p>
-                <dl className="mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <dl className="mt-10 space-y-8 text-lg leading-7 text-gray-600 lg:max-w-none">
                 {creatorFeatures.map((feature) => (
                     <div key={feature.name} className="relative pl-9">
                       <dt className="inline font-semibold ">
@@ -77,10 +77,10 @@ export default function Feature() {
                 <p className="mt-6 text-lg leading-8 text-gray-600">
                   Explore unique, high-quality content curated just for you:
                 </p>
-                <dl className="mt-10 space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
+                <dl className="mt-10 space-y-8 text-lg leading-7 text-gray-600 lg:max-w-none">
                 {consumerFeatures.map((feature) => (
                     <div key={feature.name} className="relative pl-9">
-                      <dt className="inline font-semibold">
+                      <dt className="inline font-semibold ">
                         <div className='absolute left-0 top-0 text-[25px]'>{feature.icon}</div>
                         {feature.name}
                       </dt>
