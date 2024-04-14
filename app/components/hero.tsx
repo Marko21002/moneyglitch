@@ -53,7 +53,7 @@ export default function Hero() {
                             <img
                                 src="/sphere.png"
                                 alt="Coins"
-                                className="ml-auto  sm:w-[250px] xl:[650px] md:w-[300px] lg:w-[550px]  scale-125 pb-9"
+                                className="ml-auto  sm:w-[250px] xl:[650px] md:w-[300px] lg:w-[550px]  pb-9"
                             />
                         </div>
                     </section>
