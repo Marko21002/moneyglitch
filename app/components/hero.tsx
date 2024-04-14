@@ -15,7 +15,7 @@ export default function Hero() {
                     ease: "easeInOut",
                 }}
                 className="">
-                <div className="h-auto lg:h-screen min-h-screen">
+                <div className="h-auto lg:h-screen min-h-screen w-screen">
                     <header className="px-6 py-4 sm:px-20 md:px-36 lg:px-28">
                         <img src="/logo.svg" alt="logo" className="h-20 w-20" />
                     </header>
@@ -53,7 +53,7 @@ export default function Hero() {
                             <img
                                 src="/sphere.png"
                                 alt="Coins"
-                                className="ml-auto max-w-lg rotate-12 scale-125 pb-9"
+                                className="ml-auto  sm:w-[250px] xl:[650px] md:w-[300px] lg:w-[550px]  scale-125 pb-9"
                             />
                         </div>
                     </section>

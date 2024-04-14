@@ -6,13 +6,13 @@ const faqs = [
         "Yes! you can start your online bussines with us completely for free but we will take our comission from your earnings",
     },
     {
-        id: 1,
+        id: 2,
         question: "How much is our comission?",
         answer:
           "Including payment provider fee we take 10% from your earnings",
       },
       {
-        id: 1,
+        id: 3,
         question: "When does our platform launch?",
         answer:
           "Real soon!We are planing to launch in around 5-6 month,if you want to take part in our private betatest you can get it earlier,also dont forget to give us your email to get notification from us on launch :)",
