@@ -53,7 +53,7 @@ export default function Hero() {
                             <img
                                 src="/brain.png"
                                 alt="Coins"
-                                className="ml-auto w-full max-w-lg rotate-12 scale-125"
+                                className="ml-auto w-full max-w-lg rotate-12 scale-125 pb-9"
                             />
                         </div>
                     </section>
