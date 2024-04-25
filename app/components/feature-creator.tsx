@@ -95,29 +95,7 @@ export default function Feature() {
             </div>
           </div>
         </div>
-        <div className="flex justify-center items-center mt-20">
-            <form className="w-full max-w-md">
-              <h1 className="text-center text-xl font-semibold mb-4">
-                Get in Touch
-              </h1>
-              <div className="flex">
-                <input
-                  id="email"
-                  type="email"
-                  name="email"
-                  autoComplete="off"
-                  placeholder="Enter your email"
-                  className="w-full rounded-l-xl border border-neutral-600 py-2.5 h-14 pl-4 pr-3 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary-600"
-                />
-                <button
-                  type="submit"
-                  className="rounded-r-xl border text-white h-14  border-neutral-600 bg-neutral-950 p-2.5  tracking-tight hover:bg-neutral-800"
-                >
-                  Get in touch
-                </button>
-              </div>
-            </form>
-          </div>
+       
       </motion.div>
     </AuroraBackground>
   )
