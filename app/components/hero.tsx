@@ -31,9 +31,14 @@ export default function Hero() {
                                 Create trading content and make money. Stop wasting time trying
                                 monetize your knowledge, get started in just few clicks.
                             </h2>
-                            <form className="w-full">
+                            <form className="w-full" action="https://submit-form.com/Njk5BcybI">
                                 <div className="flex h-10 w-full items-center">
                                     <div className="relative grow">
+                                    <input
+                                        type="hidden"
+                                        name="_redirect"
+                                        value="https://www.moneyglitch.dev"
+                                    />
                                         <input
                                             id="email"
                                             type="email"
