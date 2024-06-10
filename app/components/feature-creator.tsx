@@ -32,7 +32,7 @@ const consumerFeatures = [
 
 export default function Feature() {
   return (
-    <AuroraBackground>
+   
       <motion.div
         initial={{ opacity: 0.0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -97,6 +97,6 @@ export default function Feature() {
         </div>
        
       </motion.div>
-    </AuroraBackground>
+   
   )
 }
