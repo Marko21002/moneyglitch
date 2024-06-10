@@ -1,14 +1,19 @@
 "use client"
 import { useState } from 'react';
 
-const FAQ = () => {
-  const [open, setOpen] = useState(null);
+interface FAQItem {
+  question: string;
+  answer: string;
+}
 
-  const toggleOpen = (index) => {
+const FAQ = () => {
+  const [open, setOpen] = useState<number | null>(null);
+
+  const toggleOpen = (index: number) => {
     setOpen(open === index ? null : index);
   };
 
-  const faqs = [
+  const faqs: FAQItem[] = [
     {
       question: "What is Tailwind CSS?",
       answer: "Tailwind CSS is a utility-first CSS framework for rapidly building custom user interfaces."
@@ -53,4 +58,3 @@ const FAQ = () => {
 };
 
 export default FAQ;
-
