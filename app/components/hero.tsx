@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "./aurora-background";
-import Ripple from "./magicui/ripple";
+
 import AnimatedGridPattern from "./magicui/animated-grid-pattern";
 import { cn } from "@/lib/utils";
 import BoxReveal from "./magicui/box-reveal";
