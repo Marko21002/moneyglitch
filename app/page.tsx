@@ -6,6 +6,7 @@ import Faq from "./components/faq";
 import Cta from "./components/cta";
 import FAQ from "./components/faq";
 import MarqueeDemo from "./components/reviews";
+import { Contacts } from "./components/contacts";
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
       <Cta></Cta>
       <FAQ></FAQ>
       
+      <Contacts></Contacts>
     </main>
   );
 }

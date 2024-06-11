@@ -14,9 +14,9 @@ export default function Hero() {
                 <div className="h-auto lg:h-screen min-h-screen w-screen bg-neutral-800">
             
                     <header className="px-6 py-4 sm:px-20 md:px-36 lg:px-28">
-                    <BoxReveal boxColor={"#5046e6"} duration={0.2}>
+                   
                     <img src="/logo.svg" alt="logo" className="h-20 w-20" />
-                </BoxReveal>
+                
                     </header>
                     <section className="relative flex flex-col items-center gap-10 px-6 pb-20 pt-10 sm:px-20 md:px-36 lg:flex-row lg:items-start lg:gap-10 lg:px-28">
                         <div className="flex h-full flex-col items-center gap-10 lg:w-1/2 lg:max-w-md lg:items-start lg:justify-start">
