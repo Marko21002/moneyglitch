@@ -7,6 +7,7 @@ import Cta from "./components/cta";
 import FAQ from "./components/faq";
 import MarqueeDemo from "./components/reviews";
 import { Contacts } from "./components/contacts";
+import { Space2 } from "./components/space2";
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
      {/* <MarqueeDemo></MarqueeDemo>   */}
      <Space></Space>
       <Feature></Feature>
+      <Space2></Space2>
       <Cta></Cta>
       <FAQ></FAQ>
       
