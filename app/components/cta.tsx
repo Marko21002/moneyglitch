@@ -20,19 +20,19 @@ export default function Cta() {
       <div className="bg-white py-16 sm:py-24">
         <div className="relative sm:py-16">
           <div aria-hidden="true" className="hidden sm:block">
-            <div className="absolute inset-y-0 left-0 w-1/2 rounded-r-3xl bg-gray-50" />
+            <div className="absolute inset-y-0 left-0 w-1/2 rounded-r-3xl bg-gray-100" />
             <svg className="absolute left-1/2 top-8 -ml-3" width={404} height={392} fill="none" viewBox="0 0 404 392">
               <defs>
-                <pattern
+                {/* <pattern
                   id="8228f071-bcee-4ec8-905a-2a059a2cc4fb"
                   x={0}
                   y={0}
                   width={20}
                   height={20}
                   patternUnits="userSpaceOnUse"
-                >
-                  <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
-                </pattern>
+                > */}
+                  {/* <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+                </pattern> */}
               </defs>
               <rect width={404} height={392} fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" />
             </svg>
@@ -47,12 +47,12 @@ export default function Cta() {
                   viewBox="0 0 1463 360"
                 >
                   <path
-                    className="text-neutral-400 text-opacity-40"
+                    className="text-neutral-200 text-opacity-40"
                     fill="currentColor"
                     d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"
                   />
                   <path
-                    className="text-neutral-300 text-opacity-40"
+                    className="text-neutral-200 text-opacity-40"
                     fill="currentColor"
                     d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
                   />
@@ -64,8 +64,7 @@ export default function Cta() {
                     Get notified when we&rsquo;re launching.
                   </h2>
                   <p className="mx-auto mt-6 max-w-2xl text-lg text-indigo-200">
-                    Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque
-                    tristique pellentesque.
+                   
                   </p>
                 </div>
                 <form action="#" className="mt-12 sm:mx-auto sm:flex sm:max-w-lg">

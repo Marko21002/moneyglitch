@@ -12,12 +12,14 @@ import { Space2 } from "./components/space2";
 
 
 
+
 export default function Home() {
   return (
     <main>
      <Hero></Hero>
      {/* <MarqueeDemo></MarqueeDemo>   */}
      <Space></Space>
+     
       <Feature></Feature>
       <Space2></Space2>
       <Cta></Cta>
