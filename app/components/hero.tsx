@@ -6,12 +6,13 @@ import { AuroraBackground } from "./aurora-background";
 import AnimatedGridPattern from "./magicui/animated-grid-pattern";
 import { cn } from "@/lib/utils";
 import BoxReveal from "./magicui/box-reveal";
+import { IconCloudDemo } from "./icons";
 
 export default function Hero() {
     return (
         
           
-                <div className="h-auto lg:h-screen min-h-screen w-screen bg-neutral-800">
+                <div className="h-auto lg:h-screen min-h-screen w-screen bg-neutral-600">
             
                     <header className="px-6 py-4 sm:px-20 md:px-36 lg:px-28">
                    
@@ -59,11 +60,7 @@ export default function Hero() {
                             </form>
                         </div>
                         <div className="flex grow items-center justify-center">
-                            <img
-                                src="/sphere.png"
-                                alt="Coins"
-                                className="ml-auto  sm:w-[250px] xl:[650px] md:w-[300px] lg:w-[550px]  pb-9"
-                            />
+                           <IconCloudDemo></IconCloudDemo>
                         </div>
                     </section>
                 
