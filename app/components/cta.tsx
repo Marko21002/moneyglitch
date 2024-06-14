@@ -73,11 +73,12 @@ export default function Cta() {
                       Email address
                     </label>
                     <input
-                      id="cta-email"
-                      type="email"
-                      className="block w-full rounded-md border border-transparent px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:border-transparent focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600"
-                      placeholder="Enter your email"
-                    />
+                                            id="email"
+                                            type="email"
+                                            name="email"
+                                            placeholder="Enter your email"
+                                            className="z-10 w-full rounded-md border border-neutral-600 py-2.5 pl-12 pr-3 focus-visible:outline-none focus-visible:ring-1 text-black placeholder-black"
+                                        />
                   </div>
                   <div className="mt-4 sm:ml-3 sm:mt-0">
                   <ShimmerButton className="shadow-2xl">

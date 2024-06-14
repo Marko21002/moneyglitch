@@ -41,7 +41,7 @@ const FAQ = () => {
           <CoolMode>
           <button
             onClick={() => toggleOpen(index)}
-            className="w-full text-left py-4 px-6 bg-white border border-gray-300 rounded-lg focus:outline-none"
+            className="w-full text-left py-4 px-6 bg-white border border-gray-400 rounded-lg focus:outline-none"
           >
             <div className="flex justify-between items-center">
               <span className="text-lg font-medium text-gray-900">{faq.question}</span>

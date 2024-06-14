@@ -6,21 +6,21 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 export function Contacts() {
   return (
     <div className="relative flex h-[500px] w-full  flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl">
-      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
+      <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-600/80 bg-clip-text text-center text-6xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
        Contacts
       </span>
       <Dock>
         <DockIcon>
-          <Icons.whatsapp className="h-6 w-6" />
+          <Icons.whatsapp className="h-10 w-10" />
         </DockIcon>
         <DockIcon>
-          <Icons.telegram className="h-6 w-6" />
+          <Icons.telegram className="h-10 w-10" />
         </DockIcon>
         <DockIcon>
-          <Icons.gmail className="h-6 w-6" />
+          <Icons.gmail className="h-10 w-10" />
         </DockIcon>
         <DockIcon>
-          <Icons.phone className="h-6 w-6" />
+          <Icons.phone className="h-10 w-10" />
         </DockIcon>
       </Dock>
     </div>
